@@ -1,0 +1,11 @@
+l_cols: ['FlightDate', 'DayOfWeek', 'Reporting_Airline', 
+    'Tail_Number',
+     'Origin', 'Dest','DepTime','Airtime','Distance',
+     'DepDel15']
+
+features: ['DepMonth', 'DayOfWeek', 'Airline', 'DepHour','Distance',
+     'DepDel15','DepYear']
+
+train_fraction: 0.7
+
+target_column: DepDel15
